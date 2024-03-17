@@ -1,12 +1,12 @@
-# js-lab-119
-### Lab119 Array: array result5
+# js-lab-120
+### Lab120 Array: array result6
 ให้สร้าง array result จาก array ที่กำหนด โดยใช้ arr.map(fn)
 
 ```JavaScript
 const array = [
-  { name: 'apple', age: 14 },
-  { name: 'banana', age: 18 },
-  { name: 'watermelon', age: 32 }
+  { name: 'apple', surname: 'London' },
+  { name: 'banana', surname: 'Bangkok' },
+  { name: 'watermelon', surname: 'Singapore' }
 ];
-// result: [14, 18, 32]
+// result: ["apple London", "banana Bangkok", "watermelon Singapore"]
 ```
