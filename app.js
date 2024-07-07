@@ -5,3 +5,4 @@ const array = [
 ];
 // result: ["apple London", "banana Bangkok", "watermelon Singapore"]
 let result = array.map(item => item.name + ' ' + item.surname)
+console.log(result)
